@@ -1,0 +1,124 @@
+:root {
+      --red: #E60023;
+      --white: #fff;
+      --gray: #333;
+    }
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Global Styles */
+h2, h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/* Body */
+body {
+    line-height:1.6;
+    color:var(--gray);
+    background:wheat;
+
+/* Header */
+header {
+    background: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color: var(--red);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+.hero {
+    background: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 4rem 0;
+    max-width: 1000px;
+    margin: 10px auto 20px auto;
+    border-radius: 10px;
+}
+
+.hero a {
+    background: var(--white);
+    color: var(--red);
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-1 {
+    background: var(--red);
+    padding: 4rem 0;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin: 10px auto 20px auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.content-2 {
+    background: var(--red);
+    padding: 4rem 0;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin: 10px auto 20px auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.content-3 {
+    background: var(--red);
+    padding: 4rem 0;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin: 10px auto 20px auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.content-4 {
+    background: var(--red);
+    padding: 4rem 0;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin: 10px auto 20px auto;
+    padding: 0 2rem;
+    text-align: center;
+}
